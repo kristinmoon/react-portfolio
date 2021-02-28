@@ -12,7 +12,7 @@ const Nav = () => {
             className="name"
             tabIndex={0}
           >
-            Portfolio.
+            Kristin's Portfolio
           </div>
           <div className="links-wrapper">
             <button onClick={() => scrollTo("#projects")}>Projects</button>
