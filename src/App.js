@@ -1,3 +1,11 @@
+// import React, { useState } from 'react';
+// import Header from './components/Header';
+// import Nav from './components/Nav';
+// import Project from './components/Project';
+// import ContactForm from './components/Contact';
+// import Footer from './components/Footer';
+
+
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
