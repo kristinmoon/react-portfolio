@@ -1,28 +1,67 @@
 import React from "react";
-import scrollTo from "gatsby-plugin-smoothscroll"
+// import scrollTo from "gatsby-plugin-smoothscroll"
 
-const Nav = () => {
+function Nav(props) {
+  const {
+    categories = [],
+    setCurrentCategory,
+    currentCategory,
+    contactSelected,
+    setContactSelected
+  } = props;
+
+  const handleClick = (item) => {
+    return item;
+  };
+
   return (
-    <div className="section">
-      <div className="container">
-        <div className="navbar-wrapper">
-          <div
-            role="button"
-            onClick={() => scrollTo("#home")}
-            className="name"
-            tabIndex={0}
-          >
-            Kristin's Portfolio
-          </div>
-          <div className="links-wrapper">
-            <button onClick={() => scrollTo("#projects")}>Projects</button>
-            <button onClick={() => scrollTo("#about")}>About</button>
-            <button onClick={() => scrollTo("#contact")}>Contact</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
+    <header className="flex-row px-1">
+      <h2>
+        <a data-testid="link" href="/">
+          Kristin's Portfolio
+        </a>
+      </h2>
+      <nav>
+        <ul className="flex-row">
+          <li className="mx-2">
+            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+              About me
+            </a>
+          </li>
+          <li className="mx-2">
+            <a data-testid="portfolio" href="#portfolio" onClick={() => setContactSelected(false)}>
+              Portfolio
+            </a>
+          </li>
+          <li className="mx-2">
+            <a data-testid="resume" href="#resume" onClick={() => setContactSelected(false)}>
+              Resume
+            </a>
+          </li>
+          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+            <span onClick={() => setContactSelected(true)}>
+              Contact
+              </span>
+          </li>
+          {categories.map((category) => (
+            <li
+              className={`mx-1 ${currentCategory.name === category.name && !contactSelected && `navActive`
+                }`}
+              key={category.name}
+            >
+              <span onClick={() => {
+                setCurrentCategory(category);
+                setContactSelected(false);
+              }}
+              >
+                {category.name}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
+  );
 }
 
 export default Nav;
