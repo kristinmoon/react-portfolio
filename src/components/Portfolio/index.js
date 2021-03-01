@@ -4,22 +4,20 @@ import data from "../ProjectList"
 
 const Portfolio = () => {
   return (
-    <div className="section" id="work">
+    <div className="section" id="portfolio">
       <div className="container">
-        <div className="work-wrapper">
-          <h1>Portfolio</h1>
+        <h2 >Portfolio</h2>
 
-          <div className="grid">
-            {data.projects.map(project => (
-              <Card
-                key={project.id}
-                heading={project.title}
-                paragraph={project.para}
-                imgUrl={project.imageSrc}
-                projectLink={project.url}
-              ></Card>
-            ))}
-          </div>
+        <div className="row">
+          {data.projects.map(project => (
+            <Card
+              key={project.id}
+              heading={project.title}
+              paragraph={project.para}
+              imgUrl={project.imageSrc}
+              projectLink={project.url}
+            ></Card>
+          ))}
         </div>
       </div>
     </div>

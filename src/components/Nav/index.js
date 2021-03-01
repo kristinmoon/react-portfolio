@@ -12,37 +12,33 @@ function Nav(props) {
   // };
 
   return (
-    <header className="flex-row px-1">
-      <h2>
-        <a data-testid="link" href="/">
-          Kristin's Portfolio
-        </a>
-      </h2>
+    <div className="navbar-fixed">
       <nav>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              About me
-            </a>
-          </li>
-          <li className="mx-2">
-            <a data-testid="portfolio" href="#portfolio" onClick={() => setContactSelected(false)}>
-              Portfolio
-            </a>
-          </li>
-          <li className="mx-2">
-            <a data-testid="resume" href="#resume" onClick={() => setContactSelected(false)}>
-              Resume
-            </a>
-          </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>
-              Contact
-              </span>
-          </li>
-        </ul>
+        <div className="nav-wrapper">
+          <a href="#!" className="brand-logo">Moon Ink</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul className="right hide-on-med-and-down">
+            <li>
+              <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+                About me</a>
+            </li>
+            <li>
+              <a data-testid="portfolio" href="#portfolio" onClick={() => setContactSelected(false)}>
+                Portfolio</a>
+            </li>
+            <li>
+              <a data-testid="resume" href="#resume" onClick={() => setContactSelected(false)}>
+                Resume</a>
+            </li>
+            <li className={`${contactSelected && 'navActive'}`}>
+              <a onClick={() => setContactSelected(true)}>
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
       </nav>
-    </header>
+    </div>
   );
 }
 
