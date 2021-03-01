@@ -1,9 +1,19 @@
 # React Portfolio
 
-## User Story
-AS AN employer looking for candidates with experience building single-page applications
+## Description
+Welcome to my personal online portfolio created with React. Please see below for the User Story and Acceptance Criteria required for this project. This is definitely a work in progress so check back often for updates!
 
-I WANT to view a potential employee's deployed React portfolio of work samples
+  ## Table Of Contents
+  * [User Story](#user-story)
+  * [Acceptance Criteria](#acceptance-criteria)
+  * [Usage](#usage)
+  * [Questions](#questions)
+
+  
+## User Story
+AS AN employer looking for candidates with experience building single-page applications 
+
+I WANT to view a potential employee's deployed React portfolio of work samples 
 
 SO THAT I can assess whether they're a good candidate for an open position
 
@@ -56,3 +66,12 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+
+  ## Usage
+  The deployed application can be found at https://kristinmoon.github.io/react-portfolio/.
+  
+  ![Kristin's React Portfolio](./src/assets/images/portfolio-screencapture.png)
+
+  ## Questions
+  Please contact me at [kristin@icloud.com](mailto:kristin@icloud.com) with any questions. You can also find me on GitHub, username [kristinmoon](https://github.com/kristinmoon).
+
