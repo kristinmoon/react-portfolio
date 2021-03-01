@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.7f458585.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.e537d51f.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.e537d51f.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.c576831e.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.dc5844b9.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.dc5844b9.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.6da473f9.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.6da473f9.js.map",
     "static/css/2.0a49d93f.chunk.css": "/react-portfolio/static/css/2.0a49d93f.chunk.css",
@@ -14,7 +14,7 @@
     "service-worker.js": "/react-portfolio/service-worker.js",
     "service-worker.js.map": "/react-portfolio/service-worker.js.map",
     "static/css/2.0a49d93f.chunk.css.map": "/react-portfolio/static/css/2.0a49d93f.chunk.css.map",
-    "static/css/main.7f458585.chunk.css.map": "/react-portfolio/static/css/main.7f458585.chunk.css.map",
+    "static/css/main.c576831e.chunk.css.map": "/react-portfolio/static/css/main.c576831e.chunk.css.map",
     "static/js/2.b66b2482.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.b66b2482.chunk.js.LICENSE.txt",
     "static/media/BudgetTrak-image.819932a5.jpg": "/react-portfolio/static/media/BudgetTrak-image.819932a5.jpg",
     "static/media/Collaborate-image.0fbd7882.png": "/react-portfolio/static/media/Collaborate-image.0fbd7882.png",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.6da473f9.js",
     "static/css/2.0a49d93f.chunk.css",
     "static/js/2.b66b2482.chunk.js",
-    "static/css/main.7f458585.chunk.css",
-    "static/js/main.e537d51f.chunk.js"
+    "static/css/main.c576831e.chunk.css",
+    "static/js/main.dc5844b9.chunk.js"
   ]
 }
