@@ -3,7 +3,7 @@ import React from "react"
 const Card = ({ heading, paragraph, imgUrl, projectLink, githubLink }) => {
   return (
     <div className="col s12 m6 l6">
-      <div className="card medium sticky-action">
+      <div className="card small sticky-action">
         <div className="card-image waves-effect waves-block waves-light">
           <img className="activator" src={imgUrl} />
         </div>

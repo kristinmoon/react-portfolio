@@ -1,5 +1,10 @@
 // Project Images
-import LookUp from "../../assets/images/LookUp-image.jpg";
+import LookUpImg from "../../assets/images/LookUp-image.jpg";
+import CollaborateImg from "../../assets/images/Collaborate-image.png";
+import TechnicalImg from "../../assets/images/Technical-image.jpg";
+import OhSnapImg from "../../assets/images/OhSnap-image.jpg";
+import BudgetTrakImg from "../../assets/images/BudgetTrak-image.jpg";
+import RunBuddyImg from "../../assets/images/RunBuddy-image.jpg";
 
 
 
@@ -13,70 +18,55 @@ export default {
       id: 1,
       title: "LookUp",
       para:
-        "Interested in knowing which celestial bodies are (or will be) above you at any given time? Allow the browser to gauge your location, then enter a date and time below to find out! Results will show you the planets (including the sun and moon) that will be overhead at your current location and will pull images of each from the NASA Image and Video Library.",
-      imageSrc: LookUp,
-      url: "https://benmcrae5.github.io/lookup-by-ben-kara-kristin/",
+        "Interested in knowing which celestial bodies are (or will be) above you at any given time? Allow the browser to gauge your location, then enter a date and time to find out! Results will show you the planets/bodies that will be overhead and will pull images of each from the NASA Image and Video Library.",
+      imageSrc: LookUpImg,
+      url: "https://kristinmoon.github.io/lookup/",
       githubUrl: "https://github.com/benmcrae5/lookup-by-ben-kara-kristin",
     },
     {
       id: 2,
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Collaborate",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-      githubUrl: "https://github.com/kristinmoon",
+        "A collaborative whiteboard for sharing ideas: Whether you're creating a MMORPG or designing an event, this is the place to share and develop your ideas with collaborators. This app is still a work in progress and is a product of a group project for the UA Coding Bootcamp.",
+      imageSrc: CollaborateImg,
+      url: "https://glacial-dusk-52239.herokuapp.com/",
+      githubUrl: "https://github.com/kristinmoon/collaborate",
     },
     {
       id: 3,
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Let's Get Technical",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-      githubUrl: "https://github.com/kristinmoon",
+        "Writing about tech can be just as important as making it. Let's Get Technical is a CMS-style blog site where developers can publish blog posts and comment on other developers’ posts as well.",
+      imageSrc: TechnicalImg,
+      url: "https://powerful-temple-08997.herokuapp.com/",
+      githubUrl: "https://github.com/kristinmoon/lets-get-technical",
     },
     {
       id: 4,
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Oh Snap",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-      githubUrl: "https://github.com/kristinmoon",
+        "A no-frills site to display photos for a budding photographer using React.",
+      imageSrc: OhSnapImg,
+      url: "https://kristinmoon.github.io/photo-port/",
+      githubUrl: "https://github.com/kristinmoon/photo-port",
     },
     {
       id: 5,
-      title: "Project Five", //Project Title - Add Your Project Title Here
+      title: "BudgetTrak",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-      githubUrl: "https://github.com/kristinmoon",
+        "BudgetTrak is a PWA that gives users a fast and easy way to track their money. This application allows for offline access and functionality so that the user will be able to add expenses and deposits to their budget with or without an internet connection.",
+      imageSrc: BudgetTrakImg,
+      url: "https://murmuring-depths-29548.herokuapp.com/",
+      githubUrl: "https://github.com/kristinmoon/budget-tracker",
     },
     {
       id: 6,
-      title: "Project Six", //Project Title - Add Your Project Title Here
+      title: "Run Buddy",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-      githubUrl: "https://github.com/kristinmoon",
+        "One of my very first applications built during the UA Coding Bootcamp, Run Buddy is a website that offers fitness training services.",
+      imageSrc: RunBuddyImg,
+      url: "https://kristinmoon.github.io/run-buddy/",
+      githubUrl: "https://github.com/kristinmoon/run-buddy",
     }
   ],
   social: [
