@@ -1,32 +1,27 @@
 import React from "react"
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+const Card = ({ heading, paragraph, imgUrl, projectLink, githubLink }) => {
   return (
-    <div className="col s12 m6 l4">
-      <div
-        className="card"
-        style={{
-          backgroundImage:
-            "linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.2)),url(" +
-            imgUrl +
-            ")",
-        }}
-      >
-        <div className="content">
-          <h1 className="header">{heading}</h1>
-          <p className="text">{paragraph}</p>
-          <a
-            href={projectLink ? projectLink : "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn"
-          >
-            Explore
-        </a>
+    <div className="col s12 m6 l6">
+      <div className="card medium sticky-action">
+        <div className="card-image waves-effect waves-block waves-light">
+          <img className="activator" src={imgUrl} />
+        </div>
+        <div className="card-content">
+          <span className="card-title activator grey-text text-darken-4">{heading}<i className="material-icons right">more_vert</i></span>
+          <div className="card-action center">
+            <a href={projectLink ? projectLink : "#"} target="_blank" >Check it out</a>
+            <a href={githubLink ? githubLink : "#"} target="_blank" >GitHub</a>
+
+          </div>
+        </div>
+        <div className="card-reveal">
+          <span className="card-title grey-text text-darken-4">{heading}<i className="material-icons right">close</i></span>
+          <p>{paragraph}</p>
         </div>
       </div>
-    </div>
+    </div >
   )
-}
+};
 
 export default Card;

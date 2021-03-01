@@ -11,23 +11,24 @@ function Nav(props) {
   //   return item;
   // };
 
+
   return (
     <div className="navbar-fixed">
       <nav>
         <div className="nav-wrapper">
           <a href="#!" className="brand-logo">Moon Ink</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
           <ul className="right hide-on-med-and-down">
             <li>
-              <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+              <a href="#about" onClick={() => setContactSelected(false)}>
                 About me</a>
             </li>
             <li>
-              <a data-testid="portfolio" href="#portfolio" onClick={() => setContactSelected(false)}>
+              <a href="#portfolio" onClick={() => setContactSelected(false)}>
                 Portfolio</a>
             </li>
             <li>
-              <a data-testid="resume" href="#resume" onClick={() => setContactSelected(false)}>
+              <a href="#resume" onClick={() => setContactSelected(false)}>
                 Resume</a>
             </li>
             <li className={`${contactSelected && 'navActive'}`}>
@@ -38,8 +39,30 @@ function Nav(props) {
           </ul>
         </div>
       </nav>
+
+      <ul className="sidenav" id="mobile-demo">
+        <li>
+          <a href="#about" onClick={() => setContactSelected(false)}>
+            About me</a>
+        </li>
+        <li>
+          <a href="#portfolio" onClick={() => setContactSelected(false)}>
+            Portfolio</a>
+        </li>
+        <li>
+          <a href="#resume" onClick={() => setContactSelected(false)}>
+            Resume</a>
+        </li>
+        <li className={`${contactSelected && 'navActive'}`}>
+          <a onClick={() => setContactSelected(true)}>
+            Contact
+              </a>
+        </li>
+      </ul>
     </div>
   );
 }
+
+
 
 export default Nav;

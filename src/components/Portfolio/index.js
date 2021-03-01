@@ -16,6 +16,7 @@ const Portfolio = () => {
               paragraph={project.para}
               imgUrl={project.imageSrc}
               projectLink={project.url}
+              githubLink={project.githubUrl}
             ></Card>
           ))}
         </div>

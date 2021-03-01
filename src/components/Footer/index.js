@@ -3,7 +3,7 @@ import data from "../ProjectList"
 
 const Footer = () => {
   return (
-    <div className="section" id="contact">
+    <div className="section">
       <div className="container">
         <div className="footer-container">
           <h1>Contact</h1>
