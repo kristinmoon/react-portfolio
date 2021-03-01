@@ -1,3 +1,7 @@
+// Social Icons
+import githubIcon from "../../assets/icons/github.svg"
+// import twitterIcon from "./assets/icons/twitter.svg"
+
 export default {
   projects: [
     {
@@ -66,5 +70,15 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     }
+  ],
+  social: [
+    {
+      img: githubIcon,
+      url: "https://github.com/kristinmoon"
+    },
+    // {
+    //   img: twitterIcon,
+    //   url: "https://www.twitter.com/kristindmoon",
+    // },
   ]
 }
