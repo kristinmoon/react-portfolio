@@ -1,16 +1,7 @@
 import React from "react";
-// import scrollTo from "gatsby-plugin-smoothscroll"
 
 function Nav(props) {
-  const {
-    contactSelected,
-    setContactSelected
-  } = props;
-
-  // const handleClick = (item) => {
-  //   return item;
-  // };
-
+  const tabs = ['About', 'Portfolio', 'Resume', 'Contact'];
 
   return (
     <div className="navbar-fixed">
@@ -18,47 +9,23 @@ function Nav(props) {
         <div className="nav-wrapper">
           <a href="#!" className="brand-logo">Moon Ink</a>
           <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
-          <ul className="right hide-on-med-and-down">
-            <li>
-              <a href="#about" onClick={() => setContactSelected(false)}>
-                About me</a>
-            </li>
-            <li>
-              <a href="#portfolio" onClick={() => setContactSelected(false)}>
-                Portfolio</a>
-            </li>
-            <li>
-              <a href="#resume" onClick={() => setContactSelected(false)}>
-                Resume</a>
-            </li>
-            <li className={`${contactSelected && 'navActive'}`}>
-              <a onClick={() => setContactSelected(true)}>
-                Contact
-              </a>
-            </li>
+          <ul id="nav-mobile" className="nav nav-tabs right hide-on-med-and-down">
+            {tabs.map(tab => (
+              <li className="nav-item" key={tab}>
+                <a
+                  href={'#' + tab.toLowerCase()}
+                  onClick={() => props.handlePageChange(tab)}
+                  className={
+                    props.currentPage === tab ? 'nav-link active' : 'nav-link'
+                  }
+                >
+                  {tab}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </nav>
-
-      <ul className="sidenav" id="mobile-demo">
-        <li>
-          <a href="#about" onClick={() => setContactSelected(false)}>
-            About me</a>
-        </li>
-        <li>
-          <a href="#portfolio" onClick={() => setContactSelected(false)}>
-            Portfolio</a>
-        </li>
-        <li>
-          <a href="#resume" onClick={() => setContactSelected(false)}>
-            Resume</a>
-        </li>
-        <li className={`${contactSelected && 'navActive'}`}>
-          <a onClick={() => setContactSelected(true)}>
-            Contact
-              </a>
-        </li>
-      </ul>
     </div>
   );
 }
