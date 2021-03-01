@@ -4,8 +4,6 @@ import Portfolio from "../Portfolio";
 import About from "../About";
 import ContactForm from '../Contact';
 import Resume from '../Resume';
-import Footer from '../Footer';
-
 
 const Header = () => {
   const [currentPage, handlePageChange] = useState('About');
@@ -28,8 +26,7 @@ const Header = () => {
   return (
     <div>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      <div>{renderPage(currentPage)}</div>
-      <Footer></Footer>
+      <main>{renderPage(currentPage)}</main>
     </div>
   );
 }

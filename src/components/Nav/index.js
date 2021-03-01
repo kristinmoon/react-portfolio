@@ -6,7 +6,7 @@ function Nav(props) {
   return (
     <div className="navbar-fixed">
       <nav>
-        <div className="nav-wrapper">
+        <div className="nav-wrapper teal lighten-3">
           <a href="#!" className="brand-logo">Moon Ink</a>
           <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
           <ul id="nav-mobile" className="nav nav-tabs right hide-on-med-and-down">

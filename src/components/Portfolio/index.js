@@ -4,7 +4,7 @@ import data from "../ProjectList"
 
 const Portfolio = () => {
   return (
-    <section id="portfolio">
+    <main id="portfolio">
       <div className="container">
         <h3>Portfolio</h3>
         <div className="row">
@@ -20,7 +20,7 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
-    </section>
+    </main>
   )
 }
 
