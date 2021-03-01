@@ -65,9 +65,7 @@ function ContactForm() {
             </button>
           </form>
         </div>
-
       </div>
-
     </section>
   );
 }

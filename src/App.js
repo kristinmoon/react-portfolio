@@ -9,6 +9,8 @@ import Footer from "./components/Footer";
 
 const App = () => {
   const [contactSelected, setContactSelected] = useState(false);
+  const [portfolioSelected, setPortfolioSelected] = useState(false);
+
 
   return (
     <div>
