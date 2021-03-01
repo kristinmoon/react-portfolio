@@ -6,8 +6,7 @@ const Portfolio = () => {
   return (
     <div className="section" id="portfolio">
       <div className="container">
-        <h2 >Portfolio</h2>
-
+        <h3>Portfolio</h3>
         <div className="row">
           {data.projects.map(project => (
             <Card
