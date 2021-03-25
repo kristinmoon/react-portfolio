@@ -4,8 +4,10 @@ import CollaborateImg from "../../assets/images/Collaborate-image.png";
 import TechnicalImg from "../../assets/images/Technical-image.jpg";
 import OhSnapImg from "../../assets/images/OhSnap-image.jpg";
 import BudgetTrakImg from "../../assets/images/BudgetTrak-image.jpg";
-import RunBuddyImg from "../../assets/images/RunBuddy-image.jpg";
+// import RunBuddyImg from "../../assets/images/RunBuddy-image.jpg";
+import TacoImg from "../../assets/images/TacoBoutIt-image.jpg";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   projects: [
     {
@@ -20,6 +22,16 @@ export default {
     },
     {
       id: 2,
+      title: "Taco 'Bout It",
+      para:
+        "Taco 'Bout It is a full-service application for a Mexican restaurant. A user can view the menu, place an order, send a message to us, view our story, and find our store location.",
+      imageSrc: TacoImg,
+      alt: "taco ingredients",
+      url: "http://quiet-beach-11732.herokuapp.com/",
+      githubUrl: "https://github.com/amiedawn/taco-shop",
+    },
+    {
+      id: 3,
       title: "Collaborate",
       para:
         "A collaborative whiteboard for sharing ideas: Whether you're creating a MMORPG or designing an event, this is the place to share and develop your ideas with collaborators. This app is still a work in progress and is a product of a group project for the UA Coding Bootcamp.",
@@ -29,7 +41,7 @@ export default {
       githubUrl: "https://github.com/kristinmoon/collaborate",
     },
     {
-      id: 3,
+      id: 4,
       title: "Let's Get Technical",
       para:
         "Writing about tech can be just as important as making it. Let's Get Technical is a CMS-style blog site where developers can publish blog posts and comment on other developers’ posts as well.",
@@ -39,7 +51,7 @@ export default {
       githubUrl: "https://github.com/kristinmoon/lets-get-technical",
     },
     {
-      id: 4,
+      id: 5,
       title: "Oh Snap",
       para:
         "A no-frills site to display photos for a budding photographer using React.",
@@ -49,7 +61,7 @@ export default {
       githubUrl: "https://github.com/kristinmoon/photo-port",
     },
     {
-      id: 5,
+      id: 6,
       title: "BudgetTrak",
       para:
         "BudgetTrak is a PWA that gives users a fast and easy way to track their money. This application allows for offline access and functionality so that the user will be able to add expenses and deposits to their budget with or without an internet connection.",
@@ -58,15 +70,5 @@ export default {
       url: "https://murmuring-depths-29548.herokuapp.com/",
       githubUrl: "https://github.com/kristinmoon/budget-tracker",
     },
-    {
-      id: 6,
-      title: "Run Buddy",
-      para:
-        "One of my very first applications built during the UA Coding Bootcamp, Run Buddy is a website that offers fitness training services.",
-      imageSrc: RunBuddyImg,
-      alt: "runner tying shoes",
-      url: "https://kristinmoon.github.io/run-buddy/",
-      githubUrl: "https://github.com/kristinmoon/run-buddy",
-    }
-  ]
-}
+  ],
+};
