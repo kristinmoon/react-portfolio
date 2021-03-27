@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c576831e.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.a2040cfb.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.a2040cfb.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.051b65f2.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.051b65f2.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.78133131.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.78133131.js.map",
     "static/css/2.0a49d93f.chunk.css": "/react-portfolio/static/css/2.0a49d93f.chunk.css",
@@ -20,7 +20,7 @@
     "static/media/Collaborate-image.0fbd7882.png": "/react-portfolio/static/media/Collaborate-image.0fbd7882.png",
     "static/media/LookUp-image.afc44665.jpg": "/react-portfolio/static/media/LookUp-image.afc44665.jpg",
     "static/media/OhSnap-image.533ae8f6.jpg": "/react-portfolio/static/media/OhSnap-image.533ae8f6.jpg",
-    "static/media/RunBuddy-image.89fc40b0.jpg": "/react-portfolio/static/media/RunBuddy-image.89fc40b0.jpg",
+    "static/media/TacoBoutIt-image.2f031d59.jpg": "/react-portfolio/static/media/TacoBoutIt-image.2f031d59.jpg",
     "static/media/Technical-image.b4249e9a.jpg": "/react-portfolio/static/media/Technical-image.b4249e9a.jpg",
     "static/media/kmoon-headshot.3f5d4126.jpg": "/react-portfolio/static/media/kmoon-headshot.3f5d4126.jpg"
   },
@@ -29,6 +29,6 @@
     "static/css/2.0a49d93f.chunk.css",
     "static/js/2.235f4818.chunk.js",
     "static/css/main.c576831e.chunk.css",
-    "static/js/main.a2040cfb.chunk.js"
+    "static/js/main.051b65f2.chunk.js"
   ]
 }
